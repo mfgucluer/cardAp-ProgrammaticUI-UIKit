@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		BCCF25D62B1EF9EF00DD8403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25D52B1EF9EF00DD8403 /* AppDelegate.swift */; };
 		BCCF25D82B1EF9EF00DD8403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25D72B1EF9EF00DD8403 /* SceneDelegate.swift */; };
-		BCCF25DA2B1EF9EF00DD8403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25D92B1EF9EF00DD8403 /* ViewController.swift */; };
-		BCCF25DD2B1EF9EF00DD8403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF25DB2B1EF9EF00DD8403 /* Main.storyboard */; };
 		BCCF25DF2B1EF9F000DD8403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCF25DE2B1EF9F000DD8403 /* Assets.xcassets */; };
 		BCCF25E22B1EF9F000DD8403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF25E02B1EF9F000DD8403 /* LaunchScreen.storyboard */; };
+		BCCF25EA2B1F00D800DD8403 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25E92B1F00D800DD8403 /* CardSelectionVC.swift */; };
+		BCCF25EC2B1F08C400DD8403 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25EB2B1F08C400DD8403 /* CWButton.swift */; };
+		BCCF25EF2B209D3800DD8403 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25EE2B209D3800DD8403 /* RulesViewController.swift */; };
+		BCCF25F12B245BB000DD8403 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF25F02B245BB000DD8403 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCCF25D22B1EF9EF00DD8403 /* programmatic1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmatic1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCF25D52B1EF9EF00DD8403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCF25D72B1EF9EF00DD8403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCCF25D92B1EF9EF00DD8403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCCF25DC2B1EF9EF00DD8403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCCF25DE2B1EF9F000DD8403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCF25E12B1EF9F000DD8403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCF25E32B1EF9F000DD8403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCF25E92B1F00D800DD8403 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		BCCF25EB2B1F08C400DD8403 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		BCCF25EE2B209D3800DD8403 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		BCCF25F02B245BB000DD8403 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				BCCF25D52B1EF9EF00DD8403 /* AppDelegate.swift */,
 				BCCF25D72B1EF9EF00DD8403 /* SceneDelegate.swift */,
-				BCCF25D92B1EF9EF00DD8403 /* ViewController.swift */,
-				BCCF25DB2B1EF9EF00DD8403 /* Main.storyboard */,
 				BCCF25DE2B1EF9F000DD8403 /* Assets.xcassets */,
 				BCCF25E02B1EF9F000DD8403 /* LaunchScreen.storyboard */,
 				BCCF25E32B1EF9F000DD8403 /* Info.plist */,
+				BCCF25E92B1F00D800DD8403 /* CardSelectionVC.swift */,
+				BCCF25EB2B1F08C400DD8403 /* CWButton.swift */,
+				BCCF25EE2B209D3800DD8403 /* RulesViewController.swift */,
+				BCCF25F02B245BB000DD8403 /* CardDeck.swift */,
 			);
 			path = programmatic1;
 			sourceTree = "<group>";
@@ -127,7 +133,6 @@
 			files = (
 				BCCF25E22B1EF9F000DD8403 /* LaunchScreen.storyboard in Resources */,
 				BCCF25DF2B1EF9F000DD8403 /* Assets.xcassets in Resources */,
-				BCCF25DD2B1EF9EF00DD8403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCCF25DA2B1EF9EF00DD8403 /* ViewController.swift in Sources */,
+				BCCF25F12B245BB000DD8403 /* CardDeck.swift in Sources */,
+				BCCF25EF2B209D3800DD8403 /* RulesViewController.swift in Sources */,
 				BCCF25D62B1EF9EF00DD8403 /* AppDelegate.swift in Sources */,
 				BCCF25D82B1EF9EF00DD8403 /* SceneDelegate.swift in Sources */,
+				BCCF25EA2B1F00D800DD8403 /* CardSelectionVC.swift in Sources */,
+				BCCF25EC2B1F08C400DD8403 /* CWButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCCF25DB2B1EF9EF00DD8403 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCCF25DC2B1EF9EF00DD8403 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCCF25E02B1EF9F000DD8403 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +297,6 @@
 				INFOPLIST_FILE = programmatic1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +324,6 @@
 				INFOPLIST_FILE = programmatic1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
